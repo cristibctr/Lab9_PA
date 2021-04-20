@@ -22,6 +22,10 @@ public class Base {
     static EntityManagerFactory emf;
     EntityManager em;
     
+    private Base(){
+        
+    }
+    
     @BeforeAll
     public static void beforeAll(){
         emf = Persistence.createEntityManagerFactory("lab9");
