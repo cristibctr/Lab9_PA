@@ -4,8 +4,8 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>cristi.lab9_pa.Movies</class>
     <class>cristi.lab9_pa.Genres</class>
-    <class>cristi.lab9_pa.Genre</class>
-    <class>cristi.lab9_pa.Movie</class>
+    <class>DAO.JPA.Movie</class>
+    <class>DAO.JPA.Genre</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/lab9"/>
       <property name="javax.persistence.jdbc.user" value="postgres"/>
