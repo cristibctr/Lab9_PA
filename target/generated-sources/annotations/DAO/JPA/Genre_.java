@@ -1,13 +1,12 @@
-package cristi.lab9_pa;
+package DAO.JPA;
 
-import DAO.JPA.Genre;
-import cristi.lab9_pa.Movie;
+import DAO.JPA.Movie;
 import javax.annotation.processing.Generated;
 import javax.persistence.metamodel.ListAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
-@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2021-04-20T14:48:25", comments="EclipseLink-2.7.7.v20200504-rNA")
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2021-04-26T12:38:54", comments="EclipseLink-2.7.7.v20200504-rNA")
 @StaticMetamodel(Genre.class)
 public class Genre_ { 
 

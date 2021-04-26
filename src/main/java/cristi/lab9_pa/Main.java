@@ -5,6 +5,9 @@
  */
 package cristi.lab9_pa;
 
+import DAO.JPA.Movie;
+import java.awt.EventQueue;
+
 /**
  *
  * @author crist
@@ -12,5 +15,15 @@ package cristi.lab9_pa;
 public class Main {
     public static void main(String[] args){
         Base newBase;
+        Movie myMovies = new Movie();
+        myMovies.create("The Godfather");
+        myMovies.create("Pulp Fiction");
+        EventQueue.invokeLater(new Runnable()
+        {
+            public void run()
+            {
+                Chart.createAndShowGUI();
+            }
+        });
     }
 }
